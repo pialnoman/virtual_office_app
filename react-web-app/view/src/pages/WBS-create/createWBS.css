@@ -1,0 +1,79 @@
+.card-header.project-wbs-1 {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-color: transparent;
+}
+
+.custom-wbs-card-1 {
+  padding: 32px 40px;
+  background: rgb(255, 255, 255);
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 10px;
+  box-sizing: border-box;
+  color: rgb(94, 108, 132);
+  border-color: transparent;
+}
+.section-name-createwbs {
+  font-size: 1.71429em;
+  font-style: inherit;
+  line-height: 1.16667;
+  font-weight: 500;
+  color: rgb(23, 43, 77);
+}
+.custom-label-wbs5 {
+  color: rgb(23, 43, 77);
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 600;
+}
+.custom-forminput-6{
+  font-size:14px !important;
+  line-height: 1.42857;
+  color: rgb(133,133,133);
+  height: 38px;
+  
+
+}
+.custom-forminput-6:active,.custom-forminput-6:focus{
+  border:2px solid #2684ff !important;
+  box-shadow: none !important;
+  font-size:14px !important;
+  line-height: 1.42857;
+}
+.create-btn-prjctwbs {
+  -webkit-box-align: baseline;
+  align-items: baseline;
+  border-width: 0px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  height: 40px;
+  padding: 0px 10px;
+  font-size: 14px;
+  line-height: 2.28571em;
+}
+.create-wbs {
+  background-color: #0052cc;
+  color: white;
+}
+.create-wbs:hover {
+  background-color: #0065ff;
+  color: white;
+}
+.cancel-wbs {
+  line-height: 2.28571em;
+  color: rgb(66, 82, 110) !important;
+}
+.cancel-wbs:hover {
+  background-color: rgba(9, 30, 66, 0.04);
+}
+
+@media all and (min-width: 992px) {
+  .projectwbs-form-button-holders {
+    text-align: center !important;
+  }
+  .cancel-wbs {
+    margin-left: 10px;
+  }
+}

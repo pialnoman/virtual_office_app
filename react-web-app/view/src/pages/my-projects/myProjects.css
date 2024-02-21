@@ -1,0 +1,385 @@
+/*_____________________header designs______________________*/
+.dash-header-1{
+    font-size: 24px;
+    font-style: inherit;
+    line-height: 32px;
+    font-weight: 500;
+    color: #5e6c84 !important;
+text-align: left;
+letter-spacing: -0.01em;
+margin-bottom: 30px;
+}
+.card-header-portion-ongoing{
+    display: flex;
+}
+.remove-acc-bg{
+    border-color: transparent !important;
+}
+.ongoing-card-header-1{
+    font-size: 1.14286em;
+    font-style: inherit;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: -0.006em;
+    color: #172B4D;
+    vertical-align: baseline;
+    text-transform: capitalize;
+   
+}
+.fav-button{
+    color: #FBCA91;
+    }
+    .edit-ongoing-project-title{
+        /* margin-left: auto; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -13px;
+       padding:0 !important;
+        margin-left: 10px;
+        border-color: transparent !important;
+       
+
+       
+    }
+    .pen-icon{
+        margin: 0 !important;
+        color: #1976D2;
+    }
+
+    .edit-ongoing-project-title:hover .pen-icon{
+      
+        color: #00B0FF;
+    }
+   .delete-project-2:active,.delete-project-2:focus, .edit-project-ongoing-task:active,.edit-project-ongoing-task:focus,.cancel-name:active,.cancel-name:focus,.edit-ongoing-project-title:focus,.edit-ongoing-project-title:active,.confirm-name:focus,.confirm-name:active{
+        border-color: transparent;
+        outline: 0 !important;
+        box-shadow: none !important;
+        transition: none !important;
+    }
+    .confirm-name{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 0px;
+       padding:0 !important;
+        margin-left: 10px;
+        border-color: transparent !important;
+       
+    }
+    .tick{
+
+        color: #004D40;
+    }
+    .confirm-name:hover >.tick{
+        color: #2E7D32;
+    }
+    .cancel-name{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 0px;
+       padding:0 !important;
+        margin-left: 10px;
+        border-color: transparent !important;
+        
+    }
+    .cross{
+        color: #B71C1C;
+    }
+    .cancel-name:hover .cross{
+        color:#D32F2F ;
+    }
+    .custom-forminput-6{
+        font-size:14px !important;
+        line-height: 1.42857;
+        color: rgb(133,133,133);
+        height: 38px;
+        
+    
+    }
+    .custom-forminput-6:active,.custom-forminput-6:focus,.css-f8y4bk-control:active,.css-f8y4bk-control:focus{
+        border:2px solid #2684ff !important;
+        box-shadow: none !important;
+        font-size:14px !important;
+        line-height: 1.42857;
+    }
+    /**______________________________CARD DESIGNS________________**/
+    .card-ongoing-project{
+        border-radius: 3px;
+        box-shadow: rgb(9 30 66 / 25%) 0px 1px 1px, rgb(9 30 66 / 13%) 0px 0px 1px 1px;
+    border: none !important;
+    margin-top: 14px;
+    }
+    /*__INFO SHOW IN CARDS__*/
+    .project-point-details{
+        font-size: 14px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        color:rgb(23,43,77);
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: capitalize;
+    }
+    .tiny-header2{
+        
+        color: rgb(107, 119, 140);
+        font-size: 12px;
+       
+        line-height: 16px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        font-weight: 600;
+        }
+    /*_____ASSIGNEES_____*/
+    .projectName{
+        font-size: 14px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        color:rgb(23,43,77);
+        font-weight: 600;
+    text-transform: capitalize;
+    mix-blend-mode: normal;
+    }
+ 
+
+    .file-attached-ongoing{
+   
+      padding-top: 5px;
+      padding-bottom: 5px;
+      
+        background: #0D47A1;
+    /* border-radius: 20px; */
+        overflow: visible;
+      
+        position: relative;
+        font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FAFBFC;
+    mix-blend-mode: normal;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    text-transform: capitalize;
+    
+        
+    }
+    
+    .remove-file-ongoing{
+        position: absolute;
+        background: transparent;
+    
+        color: white;
+        top: -18px;
+        right: -19px;
+        border-color: transparent;
+    }
+    .remove-file-ongoing:hover,.remove-file-ongoing .active,.remove-file-ongoing:focus{
+        background: transparent !important;
+       box-shadow: none !important;
+        border-color: transparent !important;
+        outline:none !important;
+    }
+    .remove-file-ongoing:focus {
+        outline: 0 !important;
+        border:transparent!important;
+        box-shadow: none !important;
+    }
+    .export-project-list{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 5px 10px ;
+        margin-right: 10px;
+        border-color: transparent;
+      
+        background-color: rgb(27, 94, 32);
+        color: #FFFFFF;
+    }
+    .export-project-list:hover{
+        color: #FFFFFF;  
+        background-color: rgb(56, 142, 60);
+    }
+    .tooltiptext1{
+        /* visibility: hidden;
+        width: 100px; */
+        background-color: white !important;
+        color: #444444 !important;
+        text-align: center;
+        border: 1px solid #2998F9;
+    border-radius: 8px;
+        padding: 2px 0;
+        font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+
+    }
+   
+    /**___________ACTION BUTTONS____________**/
+    .edit-project-ongoing-task{
+        margin-left: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 5px 10px ;
+        margin-right: 10px;
+        border-color: transparent;
+        margin-top: 10px;
+        position: relative;
+        color: #FAFBFC;
+        background-color: #00B0FF;
+    }
+    .edit-project-ongoing-task:hover{
+        background-color: #1976D2;
+        color: #FFFFFF;
+    }
+
+
+    .delete-project-2{
+        margin-left: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        padding: 5px 10px ;
+        margin-right: 10px;
+        border-color: transparent;
+        margin-top: 10px;
+        position: relative;
+        color: #FAFBFC;
+        background-color: #B71C1C; 
+    }
+    .delete-project-2:hover{
+        background-color: #E53935;
+        color: #FFFFFF;
+    }
+
+
+/*____________EDIT FORMS____________*/
+.custom-label-5{
+    color: rgb(23, 43, 77);
+    font-size: 14px;
+    line-height: 1.42857;
+    font-weight: 600;
+}
+.custom-forminput-6{
+    font-size:14px !important;
+    line-height: 1.42857;
+    color: rgb(133,133,133);
+    height: 38px;
+    
+
+}
+.css-f8y4bk-control,.custom-forminput-6__control{
+    padding: 0px !important;
+    min-height: 35px !important;
+    font-size:14px !important;
+    line-height: 1.42857;
+    color: rgb(133,133,133) !important;
+}
+.css-1uccc91-singleValue {
+    color: rgb(133,133,133) !important;
+}
+
+.custom-forminput-6:active,.custom-forminput-6:focus,.css-f8y4bk-control:active,.css-f8y4bk-control:focus{
+    border:2px solid #2684ff !important;
+    box-shadow: none !important;
+    font-size:14px !important;
+    line-height: 1.42857;
+}
+.profile-form-btn{
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    height: 32px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height:2.28571em; 
+}
+.update-profile{
+    background-color: #0052CC;
+    color: white;
+}
+.update-profile:hover{
+    background-color: #0065ff;
+    color: white;
+}
+.cancel-update{
+    line-height: 2.28571em;
+    color: rgb(66, 82, 110) !important;
+   
+}
+.cancel-update:hover{
+    background-color: rgba(9, 30, 66, 0.04);
+    color: #2b2b2b;
+}
+.create-wbs-from-modal
+{
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    height: 40px;
+    width: 150px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height: 2.28571em;
+    background-color: #0052cc;
+    color: white;
+}
+.create-wbs-from-modal:hover{
+    background-color: #0065ff;
+    color: white;
+}
+    /**MEDIA QUERY**/
+    @media all and (min-width:300px) and (max-width:480px){
+        .export-project-list{
+            display: block !important;
+        }
+    }
+    @media all  and (min-width:482px) and (max-width:600px){
+        .export-project-list{
+            display: block !important;
+        }
+    }
+    @media all and (min-width:481px) and (max-width:992px){
+        .fix-action-btn-alignment{
+            display:block;
+            
+            }
+    }
+    @media all and (min-width:992px){
+        .project-actions{
+            text-align: right;
+        }
+        .crud-btuttons-1{
+            text-align: right;
+            
+        }
+        .project-form-button-holders{
+            text-align: center !important;
+        }
+        .cancel-update{
+            margin-left: 10px;
+        }
+        .fix-action-btn-alignment{
+            float: right !important;
+          }
+          .export-project-list{
+            float: right ;
+         }  
+    }

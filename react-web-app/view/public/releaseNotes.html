@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Release Notes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1, h2 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .release-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .release-item {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    
+    @media (min-width: 768px) {
+      .release-item {
+        display: flex;
+        align-items: center;
+      }
+      
+      .release-item .version {
+        flex-basis: 120px;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      
+      .release-item .description {
+        flex-grow: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Release Notes</h1>
+  <h2>4 July 2023</h2>
+  
+  <ul class="release-list">
+    <li class="release-item">
+      <span class="version">1</span>
+      <span class="description">The year showing in the footer will now change dynamically.</span>
+    </li>
+    <li class="release-item">
+      <span class="version">2</span>
+      <span class="description">Footer will now link to a <b>Release Notes</b> page, which will contain all the information about the last update.</span>
+    </li>
+    <li class="release-item">
+      <span class="version">3</span>
+      <span class="description">Users can't upload profile pictures that are greater than 100KB.</span>
+    </li>
+    <li class="release-item">
+      <span class="version">4</span>
+      <span class="description">Users are requested to change their profile pictures for data effeciency.</span>
+    </li>
+    <!-- Add more release items here -->
+  </ul>
+</body>
+</html>

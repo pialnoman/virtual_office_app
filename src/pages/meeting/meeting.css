@@ -1,0 +1,80 @@
+.section-name{
+    font-size:30px;
+    line-height: 42px;
+    margin-bottom: 15px;
+    color: #444444;
+}
+.icon-holder{
+    height: auto;
+    width:50px;
+    justify-content: baseline;
+    align-items: baseline;
+    margin-right: 14px;
+}
+.videoIcon{
+    color: #BD9EFB;
+    font-size: 45px;
+}
+.meeting-cards{
+    box-shadow: 5px 10px 20px rgba(189, 158, 251, 0.1);
+    margin-bottom: 10px;
+    color: #444444;
+}
+
+.meeting-join-btn{
+    background-color: #BD9EFB;
+    outline: 0 !important;
+    border: none !important;
+}
+
+/*meeting creator form*/
+.meeting-creator-form{
+    padding: 20px;
+    box-shadow: 5px 10px 20px rgba(189, 158, 251, 0.1);
+}
+.custom-label3{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+    .custom-formgroup3{
+        background: rgba(238, 232, 250, 0.5);
+    border: 1px solid #EEE8FA;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 20px rgba(189, 158, 251, 0.1);
+    border-radius: 8px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(68, 68, 68, 0.5);
+    
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    }
+    .create-meeting-btn{
+        margin-top: 30px;
+        background: #BD9EFB;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    outline: none;
+    border-color: transparent;
+    padding: 15px 40px;
+    }
+    .create-meeting-btn:hover{
+        background: #BD9EFB;
+        box-shadow: 5px 10px 20px rgba(189, 158, 251, 0.2);
+        outline: none !important;
+        border:transparent;
+    }

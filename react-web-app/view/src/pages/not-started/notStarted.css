@@ -1,0 +1,111 @@
+
+.timecards-page-header{
+    font-size: 1.71429em;
+    font-style: inherit;
+    color: #5e6c84 !important;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    
+    line-height: 32px;
+    outline: none;
+}
+
+.projectsHeader{
+    /* font-family: Poppins; */
+    font-size: 1.14286em;
+    font-style: inherit;
+    line-height: 1.25;
+    color: #172B4D;
+    font-weight: 600;
+    letter-spacing: -0.006em;
+    margin-bottom: 22px;
+}
+.main-holder-projects{
+    /* border:1px solid #BD9EFB; */
+    background-color: #f4f5f7;
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 5px 10px 20px rgba(189, 158, 251, 0.1);
+    margin-bottom: 20px;
+}
+.project-card1,.project-card2{
+    margin-bottom:10px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: none !important;
+    box-shadow: rgb(9 30 66 / 25%) 0px 1px 1px, rgb(9 30 66 / 13%) 0px 0px 1px 1px;
+}
+.id-no1{
+    /* font-family: Poppins; */
+font-style: normal;
+font-size: 12px;
+color: rgb(107, 119, 140);
+line-height: 16px;
+font-weight: 600;
+mix-blend-mode: normal;
+text-transform: capitalize;
+}
+.card-details1{
+    font-size: 12px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    color:rgb(23,43,77);
+    font-weight: 400;
+text-transform: capitalize;
+mix-blend-mode: normal;
+}
+.p-header-3{
+    font-weight: 500 !important;
+    color: rgb(107, 119, 140);
+}
+.p-header-4{
+    font-weight: 600 !important;
+    color: rgb(211, 15, 15);
+}
+.button-holder3{
+    text-align: right;
+}
+.tiny-buttons1{
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    height: 32px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height:2.28571em;
+    background-color: #0052CC;
+    color: white;
+}
+.tiny-buttons1:hover{
+    background-color: #0065ff;
+    color: white;
+}
+.project-card1:hover, .project-card1.active {
+    box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px, rgb(9 30 66 / 31%) 0px 0px 1px;
+    cursor: pointer;
+}
+.create-wbs-from-modal
+{
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    height: 30px;
+    width: 100px;
+    padding: 0px 10px;
+    font-size: 12px;
+    line-height: 2.28571em;
+    background-color: #0052cc;
+    color: white;
+}
+.create-wbs-from-modal:hover{
+    background-color: #0065ff;
+    color: white;
+}

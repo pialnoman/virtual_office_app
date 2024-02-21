@@ -1,0 +1,150 @@
+
+.evms-info-view{
+    font-size: 14px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    color:rgb(23,43,77);
+    font-weight: 400;
+    line-height: 20px;
+}
+.info-header--evms{
+    color: rgb(107, 119, 140);
+    font-size: 14px;
+   text-transform: capitalize;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-weight: 600;
+}
+.edit-project-on{
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px ;
+    margin-right: 10px;
+    border-color: transparent;
+    margin-top: 10px;
+    position: relative;
+    color: #FAFBFC;
+    background-color: #00B0FF;
+
+}
+.edit-project-on:hover{
+    background-color: #1976D2;
+    color: #FFFFFF;
+}
+.fav-button{
+    color: #FBCA91;
+    }
+    .view-ongoing-details{
+        font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px ;
+    margin-right: 10px;
+    border-color: transparent;
+    margin-top: 10px;
+    position: relative;
+    background-color: #0052CC;
+    color: #FAFBFC;
+    }
+    .view-ongoing-details:hover{
+        color: #FAFBFC;
+        background-color: #0065ff;
+    }
+    .custom-label-5{
+        color: rgb(23, 43, 77);
+        font-size: 14px;
+        line-height: 1.42857;
+        font-weight: 600;
+    }
+    .custom-forminput-6{
+        font-size:14px !important;
+        line-height: 1.42857;
+        color: rgb(133,133,133);
+        height: 38px;
+        
+    
+    }
+    .custom-forminput-6:active,.custom-forminput-6:focus{
+        border:2px solid #0065ff !important;
+        box-shadow: none !important;
+        font-size:14px !important;
+        line-height: 1.42857;
+    }
+    .update-profile{
+        background-color: #0052CC;
+        color: white;
+    }
+    .update-profile:hover{
+        background-color: #0065ff;
+        color: white;
+    }
+    .cancel-update{
+        line-height: 2.28571em;
+        color: rgb(66, 82, 110) !important;
+       
+    }
+    .cancel-update:hover{
+        background-color: rgba(9, 30, 66, 0.04);
+        color: #2b2b2b;
+    }
+    .profile-form-btn{
+        -webkit-box-align: baseline;
+        align-items: baseline;
+        border-width: 0px;
+        border-radius: 3px;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: 500;
+        height: 32px;
+        padding: 0px 10px;
+        font-size: 14px;
+        line-height:2.28571em; 
+    }
+    .error{
+        font-size: 14px;
+        font-family: inherit;
+        font-weight: 400;
+        margin-top: 5px;
+        color: red;
+    }
+    .evms-from-details{
+        -webkit-box-align: baseline;
+        align-items: baseline;
+        border-width: 0px;
+        border-radius: 3px;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: 500;
+        height: 40px;
+        padding: 0px 10px;
+        font-size: 14px;
+        line-height:2.28571em;
+        background-color: #0052CC;
+        color: white;
+        margin-top:10px;
+    }
+    .evms-from-details:hover{
+        background-color: #0065ff;
+        color: white;
+    }
+/*media query*/
+
+@media all and (min-width:992px){
+    .card-header-portion-ongoing{
+        display: flex;
+    }
+    .action-button-holders--2{
+        margin-left: auto;
+    }
+    .project-form-button-holders{
+        text-align: center !important;
+    }
+    .cancel-update{
+        margin-left: 10px;
+    }
+}

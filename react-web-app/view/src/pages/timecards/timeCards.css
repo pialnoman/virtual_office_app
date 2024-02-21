@@ -1,0 +1,137 @@
+.timecards-page-header{
+    font-size: 1.71429em;
+    font-style: inherit;
+    color: #5e6c84 !important;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    
+    line-height: 32px;
+    outline: none;
+}
+.project-details-points{
+    font-size: 14px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    color:rgb(23,43,77);
+    font-weight: 400;
+    line-height:20px;
+margin-bottom: 20px;
+/* display: flex; */
+}
+.info-header-4{
+    font-weight: 500;
+    color: rgb(23, 43, 77);
+    font-size: 14px;
+    line-height:20px;
+}
+.custom-forminput-6{
+    font-size:14px !important;
+    line-height: 1.42857;
+    color: rgb(133,133,133);
+    height: 38px;
+    
+
+}
+.custom-forminput-6:active,.custom-forminput-6:focus{
+    border:2px solid #0065ff !important;
+    box-shadow: none !important;
+    font-size:14px !important;
+    line-height: 1.42857;
+}
+.custom-label-5{
+    color: rgb(23, 43, 77);
+    font-size: 14px;
+    line-height: 1.42857;
+    font-weight: 600;
+}
+.button-holder--3{
+    justify-content: baseline;
+    align-items: baseline !important;
+  
+}
+.generate-card-button{
+    /* -webkit-box-align: baseline;
+    align-items: baseline; */
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    /* height: 32px; */
+    padding: 3px 15px;
+    font-size: 14px;
+    line-height:2.28571em; 
+    background-color: #0052CC;
+    color: white;
+   
+}
+.tiny-header--5{
+    font-weight: 600;
+    letter-spacing: -0.006em;
+    font-size: 1.14286em;
+    font-style: inherit;
+    line-height: 1.25;
+    color: #172B4D;
+}
+.generate-card-button:hover{
+    background-color: #0065ff;
+    color: white;
+}
+.mark-ongoing-completed {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-color: transparent;
+    margin-top: 10px;
+    position: relative;
+    background-color: #B22222;
+    color: #FAFBFC;
+}
+.file-format-download{
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    height: 30px;
+    padding: 0px 15px;
+    font-size: 12px;
+    line-height:18px; 
+    background-color: #0065FF;
+    color: white;
+    margin-right: 10px;
+}
+.file-format-download:hover{
+    background-color: #0066ffa2;
+    color: white;
+}
+.a:hover{
+    background-color: #0066ffa2;
+}
+
+/*media query*/
+@media all and (min-width:300px) and (max-width:600px){
+    .generate-card-button{
+        margin-top: 25px;
+    }
+}
+
+@media all and (min-width:600px) and (max-width:992px){
+    .generate-card-button{
+        margin-top: 30px;
+    }
+}
+@media all and (min-width:992px){
+   .generate-card-button{
+       margin-top: 30px;
+   }
+   /* .button-holder--3{
+    text-align: center;
+   } */
+   .name-for-wbs{
+       min-height: 35px;
+   }
+}

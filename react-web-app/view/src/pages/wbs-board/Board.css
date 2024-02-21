@@ -1,0 +1,84 @@
+.flxgwB {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.gjfORV {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.jSvQFG {
+    max-height: calc(100vh - 215px) !important;
+}
+
+.bgOcuh {
+    padding-right: 0 !important;
+}
+.wbs-reporter-name{
+    text-transform: capitalize;
+}
+.task-list-show-item{
+font-size: 14px;
+line-height: 20px;
+padding-left:0px;
+
+}
+.task-list-show{
+
+}
+.clear-filter-wbs{
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    height: 37px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height:2.28571em;
+    background-color: #0052CC;
+    color: white;
+    text-transform: capitalize;
+}
+.clear-filter-wbs:hover{
+    background-color: #0065ff;
+    color: white;
+}
+
+.sc-fodVek,.ffdnYn{
+    display: -webkit-box;
+    max-width: 200px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.text-box-height{
+    min-height: 250px !important;
+}
+
+.task-list{
+    height: 450px;
+    overflow-y: auto;
+}
+.export-project-list{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px ;
+    margin-right: 10px;
+    border-color: transparent;
+  
+    background-color: rgb(27, 94, 32);
+    color: #FFFFFF;
+}
+.export-project-list:hover{
+    color: #FFFFFF;  
+    background-color: rgb(56, 142, 60);
+}

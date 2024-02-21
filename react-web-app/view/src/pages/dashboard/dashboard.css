@@ -1,0 +1,21 @@
+
+.evms-from-details{
+    -webkit-box-align: baseline;
+    align-items: baseline;
+    border-width: 0px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 14px;
+    line-height:2.28571em;
+    background-color: #0052CC;
+    color: white;
+    margin-top:10px;
+}
+.evms-from-details:hover{
+    background-color: #0065ff;
+    color: white;
+}
